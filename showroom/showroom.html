@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Show Room</title>
+    <style>
+    body {
+        margin:0;
+    }
+    .div1 {
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    .select {
+        display:flex;
+        justify-content: space-evenly;
+        margin:8px;
+        padding:5px;
+    }
+    .select > div {
+        width: 25%;
+    }
+    </style>
+</head>
+<body>
+    <div class="div1">
+    <img id="main_image" src="car\ferrari.jpg" height ="70%" width="70%">
+    </div>
+    <div class="select">
+        <div><img name="image" src="car\ferrari.jpg" height ="90%" width="90%"></div>
+        <div><img name="image" src="car\bmw.jpg" height ="90%" width="90%"></div>
+        <div><img name="image" src="car\cbmw.jpg" height ="90%" width="90%"></div>
+        <div><img name="image" src="car\benz.jpg" height ="90%" width="90%"></div>
+        <div><img name="image" src="car\srt.jpg" height ="90%" width="90%"></div>
+    </div>
+    <script src="showroom.js"></script>
+</body>
+</html>
