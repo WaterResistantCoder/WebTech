@@ -1,0 +1,11 @@
+Contains 3 games
+1.Snake
+2.XOX(tic tac toe)
+3.Flappy Box
+
+Snake by Arun 
+XOX by Hemanth
+Flappy Box by Ravichandu 
+
+Requires a server to run, cause highscore is 
+stored in a file using PHP.
